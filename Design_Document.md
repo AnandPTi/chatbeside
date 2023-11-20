@@ -1,11 +1,13 @@
 # chatbeside
 Full stack Realtime chatting app(Chat, Group Chat, chatbot, Audio Call, Video Call)
 
+## Here, I have tried to implement the following design and feature
+
 # Chat Application Design Document
 
 ## Overview
 
-The Chat Application is a real-time communication platform that provides features such as one-on-one chatting, group chatting, audio calls, video calls, and a chatbot. The application is built using MongoDB for data storage, Socket.IO for real-time communication, ReactJS for the front-end, and Node.js/Express for the back-end.
+The Chat Application is a real-time communication platform with features such as one-on-one chatting, group chatting, audio calls, video calls, and a chatbot. The application is built using MongoDB for data storage, Socket.IO for real-time communication, ReactJS for the front-end, and Node.js/Express for the back-end.
 
 ## Architecture
 
@@ -116,3 +118,5 @@ The application follows a client-server architecture:
 ## Conclusion
 
 The Chat Application is designed to provide a seamless real-time communication experience for users. The modular architecture allows for scalability and easy maintenance, while the chosen technologies ensure a modern and efficient solution.
+
+
