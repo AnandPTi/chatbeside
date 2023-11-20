@@ -10,7 +10,7 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_URI='mongodb+srv://test:WugbjLJylNl1HzeL@chat.gpn55gb.mongodb.net/?retryWrites=true&w=majority'
+const MONGO_URI='mongodb+srv://<cluster name>:<password>@chat.gpn55gb.mongodb.net/?retryWrites=true&w=majority'
 mongoose
   .connect(MONGO_URI, {
     useNewUrlParser: true,
