@@ -23,7 +23,7 @@ Certainly! Here's the combined markdown file with all the information:
    cd server
 
 
-2. Create a `.env` file inside server directory with the following content:
+2. Create a `.env` file inside server directory with the following content also you have to change URI in index.js(server directory):
    ```env
    MONGODB_URI=[Your MongoDB URI]
    PORT=[Your preferred port number]
